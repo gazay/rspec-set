@@ -1,5 +1,5 @@
 module Rspec
-  module Set
+  module SetHelper
     VERSION = "0.1.0"
   end
 end

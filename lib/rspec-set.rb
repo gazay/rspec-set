@@ -2,7 +2,7 @@ require "version"
 
 module RSpec
   module Core
-    module Set
+    module SetHelper
       module ClassMethods
         # Set @variable_name in a before(:all) block and give access to it
         # via let(:variable_name)
@@ -50,7 +50,7 @@ module RSpec
     end # Set
 
     class ExampleGroup
-      include Set
+      include SetHelper
     end # ExampleGroup
 
   end # Core

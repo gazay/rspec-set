@@ -5,12 +5,12 @@ require 'version'
 
 Gem::Specification.new do |spec|
   spec.name          = "rspec-set"
-  spec.version       = Rspec::Set::VERSION
+  spec.version       = Rspec::SetHelper::VERSION
   spec.authors       = ["Philippe Creux"]
   spec.email         = ["pcreux@gmail.com"]
   spec.description   = "#set(), speed-up your specs"
   spec.summary       = "#set() is a helper for RSpec which setup active record
-                        objects before all tests and restore them to there original state 
+                        objects before all tests and restore them to there original state
                         before each test"
   spec.homepage      = "http://github.com/pcreux/rspec-set"
   spec.license       = "MIT"
